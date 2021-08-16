@@ -10,7 +10,6 @@ run = True
 def performMath():
     global run
     global previous
-    equation = ""
     if previous == 0:
         equation = input("Enter equation:")
     else:
